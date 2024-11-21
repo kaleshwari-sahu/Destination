@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #eb74dd 0%, #acb6e5 100%);
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    background-color: #be70e2;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    box-shadow: 0 0 8px rgba(100, 49, 159, 0.5);
+    outline: none;
+  }
+  
+  button {
+    padding: 12px 25px;
+    background-color: #572d65;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0754a6;
+      transform: translateY(-3px);
+    }
+  
+  button:active {
+    transform: translateY(0);
+  }
+  
+  #resultsContainer {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .destination-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .destination-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .destination-card h2 {
+    margin-top: 0;
+    color: #5920a3;
+  }
+  
+  .destination-card ul {
+    padding-left: 20px;
+  }
+  
+  .destination-card li {
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+      max-width: 90%;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  }
+  .destination-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  
